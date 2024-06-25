@@ -1,58 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Viaoda+Libre&display=swap');
-
-body {
-    font-family: var(--Viaoda-Libre);
-    max-width: 960px;
-    padding: 20px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Viaoda+Libre&display=swap");
 
 :root {
---FederalBlue: #0B0750;
---YInMnBlue: #3D5877;
---CambridgeBlue: #92BCAF;
---SeaGreen: #419562;
+  --primary-color: #0b0750;
+  --secondary-color: #3d5877;
+  --accent1-color: #92bcaf;
+  --accent2-colo: #419562;
 
---Heading-font: "Rock Salt", serif;
---Paragraph-font: "Viaoda Libre", serif;
+  --heading-font: "Rock Salt", cursive;
+  --paragraph-font: "Viaoda Libre", serif;
 
---nav-background-color: #004e98;
---nav-link-color: #ebebeb;
---nav-hover-link-color: #c0c0c0;
---nav-hover-background-color: #3a6ea5;
+  --nav-background-color: #004e98;
+  --nav-link-color: #ebebeb;
+  --nav-hover-link-color: #c0c0c0;
+  --nav-hover-background-color: #3a6ea5;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--RockSalt);
-    color: var(--FederalBlue);
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
 header {
-    padding: 20px;
-    background-color: var(--CambridgeBlue);
+  padding: 20px;
+  background-color: var(--accent1-color);
 }
 
 p {
-    padding: 25px;
+  padding: 25px;
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
 }
 
 nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
 }
