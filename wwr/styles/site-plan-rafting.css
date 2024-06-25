@@ -4,11 +4,12 @@
   --primary-color: #0b0750;
   --secondary-color: #3d5877;
   --accent1-color: #92bcaf;
-  --accent2-colo: #419562;
-
+  --accent2-color: #419562;
+ 
   --heading-font: "Rock Salt", cursive;
   --paragraph-font: "Viaoda Libre", serif;
 
+  nav-background-color, nav-link-color, nav-hover-link-color, and nav-hover-background-color
   --nav-background-color: #004e98;
   --nav-link-color: #ebebeb;
   --nav-hover-link-color: #c0c0c0;
