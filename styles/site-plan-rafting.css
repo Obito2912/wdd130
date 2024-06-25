@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Viaoda+Libre&display=swap');
+
+body {
+    font-family: var(--Viaoda-Libre);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+--FederalBlue: #0B0750;
+--YInMnBlue: #3D5877;
+--CambridgeBlue: #92BCAF;
+--SeaGreen: #419562;
+
+--Heading-font: "Rock Salt", serif;
+--Paragraph-font: "Viaoda Libre", serif;
+
+--nav-background-color: #004e98;
+--nav-link-color: #ebebeb;
+--nav-hover-link-color: #c0c0c0;
+--nav-hover-background-color: #3a6ea5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--RockSalt);
+    color: var(--FederalBlue);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--CambridgeBlue);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

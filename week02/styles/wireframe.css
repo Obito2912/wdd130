@@ -1,0 +1,26 @@
+header {
+  background-color: beige;
+}
+
+.logo-box {
+  max-width: 500px;
+  border-radius: 500px;
+}
+
+.ilustrations {
+  background-color: rgb(218, 198, 87);
+  padding: 10px 0 30px;
+}
+
+.image {
+  max-width: 200px;
+}
+
+.references {
+  background-color: rgb(106, 189, 189);
+  text-align: center;
+}
+
+.cardbox {
+  background-color: rgb(68, 172, 137);
+}
