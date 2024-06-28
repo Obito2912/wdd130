@@ -26,6 +26,7 @@ nav a {
 
 h1 {
   color: steelblue;
+  text-align: center;
 }
 
 img {
@@ -38,7 +39,7 @@ img {
   margin-left: 10px;
 }
 
-p {
+.text {
   padding-left: 16px;
   margin-left: 16px
 }
