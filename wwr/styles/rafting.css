@@ -54,7 +54,8 @@ header nav {
 }
 
 header nav a {
-    display: block;
+    display: flex;
+    justify-content: center;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 0.3rem;
