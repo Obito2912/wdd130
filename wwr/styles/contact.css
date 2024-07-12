@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Viaoda+Libre&display=swap");
+
+:root {
+    --primary-color: #0b0750;
+    --secondary-color: #3d5877;
+    --accent1-color: #92bcaf;
+    --accent2-color: #419562;
+
+    --heading-font: "Rock Salt", cursive;
+    --paragraph-font: "Viaoda Libre", serif;
+
+    --nav-background-color: #11d1df;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #4aa342;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto 10px;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    background-color: #000000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header img {
+    width: 120px;
+    padding: 0.6rem;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+header nav a {
+    display: flex;
+    justify-content: center;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 0.3rem;
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 4px 3px / 2px 4px;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+header a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+}
+
+ul {
+    display: grid;
+    list-style-type: none;
+    justify-content: center;
+    background-color: var(--nav-background-color);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.content li {
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.content a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+div iframe {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: var(--nav-background-color);
+    align-items: center;
+    justify-items: center;
+    border-radius: 4px 3px / 2px 4px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
