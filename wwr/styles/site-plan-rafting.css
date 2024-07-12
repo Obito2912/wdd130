@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&family=Viaoda+Libre&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --primary-color: #0b0750;
@@ -6,8 +6,8 @@
   --accent1-color: #92bcaf;
   --accent2-color: #419562;
 
-  --heading-font: "Rock Salt", cursive;
-  --paragraph-font: "Viaoda Libre", serif;
+  --heading-font: "Orbitron", san-serif;
+  --paragraph-font: "Saira", san-serif;
 
   --nav-background-color: #004e98;
   --nav-link-color: #ebebeb;
