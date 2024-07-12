@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --primary-color: #0b0750;
@@ -162,4 +162,204 @@ footer {
 
 .adventure figure {
     margin: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #0b0750;
+    --secondary-color: #3d5877;
+    --accent1-color: #92bcaf;
+    --accent2-color: #419562;
+
+    --heading-font: "Orbitron", san-serif;
+    --paragraph-font: "Saira", san-serif;
+
+    --nav-background-color: #48c226;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #4aa342;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto 10px;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../images/background-image1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header img {
+    width: 120px;
+    padding: 0.6rem;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header nav {
+    font-size: 1rem;
+    display: flex;
+    gap: 5px;
+}
+
+header nav a {
+    background-color: var(--nav-background-color);
+    display: flex;
+    justify-content: center;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 0.3rem;
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 4px 3px / 2px 4px;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+header a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.contact {
+    display: grid;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact h1 {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+iframe {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 780px;
+    height: 500px;
+    margin: 15px auto;
+    display: flex;
+}
+
+.employees {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 780px;
+    margin: 15px auto 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15px 25px 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+figure img {
+    width: 200px;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form {
+    border: 1px solid #000;
+    display: grid;
+    width: 50%;
+    margin: 15px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+.form input {
+    padding: 5px;
+}
+
+.form input[type="text"] {
+    margin-bottom: 10px;
+}
+
+.form>label {
+    text-align: center;
+}
+
+.form>div {
+    margin: 5px 0;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px 0;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social a {
+    display: flex;
+    justify-items: center;
 }
