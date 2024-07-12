@@ -111,8 +111,8 @@ header a:hover {
 iframe {
     border: 1px solid #000;
     border-radius: 5px;
-    width: 725px;
-    height: 300px;
+    width: 780px;
+    height: 500px;
     margin: 15px auto;
     display: flex;
 }
