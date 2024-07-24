@@ -9,7 +9,7 @@
     --heading-font: "Orbitron", san-serif;
     --paragraph-font: "Saira", san-serif;
 
-    --nav-background-color: #48c226;
+    --nav-background-color: #9adc60;
     --nav-link-color: #000000;
     --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: #4aa342;
@@ -305,7 +305,7 @@ button {
     border-radius: 10px;
     color: #000000;
     font-weight: 500;
-    height: 420px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -324,7 +324,7 @@ button {
 }
 
 .card h2 {
-    color: #653434;
+    color: #711313;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -342,9 +342,91 @@ button {
     margin-top: 10px;
 }
 
+.card__home {
+    margin: 0;
+}
+
+.card__home a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.home__presentation {
+    position: relative;
+    margin: 10px 0;
+}
+
+.home__title {
+    color: #fff;
+    font-weight: 600;
+}
+
+.home__image__content p {
+    margin: 10px 0;
+}
+
+.home__image {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: auto;
+}
+
+.home__image__content {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 300px;
+    justify-items: center;
+    display: grid;
+}
+
+.home__image__content a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.form__home {
+    width: 80%;
+    margin: 0;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.columns {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 0.5fr 0.5fr 300px 300px;
+    justify-items: center;
+    margin: 0 auto 10px;
+}
+
+.columns>p {
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    margin: auto 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.columns>img {
+    width: 90%;
+    margin: auto 0;
+}
+
 footer {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 0.3fr 1fr;
     background-color: rgba(0, 0, 0, .5);
     align-items: center;
     justify-items: center;
